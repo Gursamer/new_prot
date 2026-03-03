@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Portfolio</title>
+    <title>Gursamer Singh | Software Developer Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" />
 </head>
@@ -17,32 +17,85 @@
         </ul>
     </nav>
 
-    <button id="scrollTopBtn" title="Go to top">&#8679;</button>
+    <button id="scrollTopBtn" title="Go to top" aria-label="Go to top">&#8679;</button>
 
-    <header>
+    <header class="hero">
         <img src="images/your-profile-picture.jpg" alt="Profile Picture" class="profile-pic home-pic" />
+        <p class="eyebrow">Computer Science Student</p>
         <h1>Gursamer Singh</h1>
-        <p>Welcome to my portfolio website!</p>
+        <p class="hero-subtitle">Building practical software products with clean UI, strong backend logic, and real-world business value.</p>
+        <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">View Projects</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+            <a href="resume101.pdf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
     </header>
 
     <main>
         <section id="about" class="fade-in-section">
             <h2>About Me</h2>
-            <p>I am a motivated computer science major eager to expand my programming skills across various languages and technologies. With a solid foundation in software development and problem-solving gained through hands-on projects, I am committed to applying my knowledge in real-world settings. I thrive in collaborative environments and am passionate about leveraging technology to drive innovation. I am actively seeking internship opportunities to further develop my skills and contribute to impactful projects. I look forward to connecting with professionals in the tech industry to explore potential collaborations and growth.</p>
+            <p>
+                I am a motivated computer science major focused on full-stack development, product thinking, and practical problem-solving.
+                I enjoy building software that turns complex workflows into clear user experiences, and I am actively seeking internship opportunities
+                where I can contribute to meaningful projects while continuing to grow as an engineer.
+            </p>
         </section>
 
         <section id="projects" class="fade-in-section">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/Gursamer/scrabble-" target="_blank" rel="noopener noreferrer">Scrabble Game</a> - A project repository showcasing my work on a Scrabble game.</li>
-            </ul>
+            <div class="section-head">
+                <h2>Featured Projects</h2>
+                <a href="projects.html" class="inline-link">See all projects</a>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-meta">
+                        <span class="pill">AI</span>
+                        <span class="pill">Full-Stack</span>
+                    </div>
+                    <h3>ComplyAI</h3>
+                    <p class="project-summary">
+                        AI-powered compliance copilot that analyzes legal documents, maps clauses to regulatory controls,
+                        scores risk, and suggests safer rewrite recommendations with citations.
+                    </p>
+                    <ul class="project-points">
+                        <li>Next.js + React frontend with dashboards and reports</li>
+                        <li>FastAPI backend with analysis pipeline and JWT auth</li>
+                        <li>Local-first architecture using SQLite and JSON storage</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Gursamer" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="projects.html">Project details</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-meta">
+                        <span class="pill">Game Dev</span>
+                        <span class="pill">Java</span>
+                    </div>
+                    <h3>Scrabble Game</h3>
+                    <p class="project-summary">
+                        A Scrabble project repository focused on gameplay logic, scoring behavior, and software structure.
+                    </p>
+                    <ul class="project-points">
+                        <li>Board and scoring logic implementation</li>
+                        <li>Repository-driven project collaboration</li>
+                        <li>Core programming and debugging practice</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Gursamer/scrabble-" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="contact" class="fade-in-section">
             <h2>Contact</h2>
-            <p>Email: mangatgursamer@gmail.com</p>
+            <p>Email: <a href="mailto:mangatgursamer@gmail.com">mangatgursamer@gmail.com</a></p>
             <p>Phone: 510-754-9791</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/gursamer-singh-36883928a/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/gursamer-singh-36883928a/</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/gursamer-singh-36883928a/" target="_blank" rel="noopener noreferrer">linkedin.com/in/gursamer-singh-36883928a/</a></p>
+            <p>GitHub: <a href="https://github.com/Gursamer" target="_blank" rel="noopener noreferrer">github.com/Gursamer</a></p>
         </section>
     </main>
 
