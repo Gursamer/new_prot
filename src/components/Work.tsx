@@ -3,26 +3,28 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "ComplyAI",
     category: "AI-Powered Compliance Copilot",
     tools: "Next.js, React, FastAPI, JWT Auth, SQLite, JSON Storage",
-    image: "/images/placeholder.webp",
+    image: `${baseUrl}images/placeholder.webp`,
     link: "https://github.com/Gursamer",
   },
   {
     title: "Scrabble Game",
     category: "Java Gameplay Systems",
     tools: "Java, Board Logic, Scoring Engine, Debugging",
-    image: "/images/placeholder.webp",
+    image: `${baseUrl}images/placeholder.webp`,
     link: "https://github.com/Gursamer/scrabble-",
   },
   {
     title: "Personal Portfolio",
     category: "Responsive Portfolio Website",
     tools: "HTML, CSS, JavaScript, Responsive Design",
-    image: "/images/preview1.png",
+    image: `${baseUrl}images/preview1.png`,
     link: "https://github.com/Gursamer/gursamer-portfolio",
   },
 ];
