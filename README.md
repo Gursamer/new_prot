@@ -1,8 +1,9 @@
-# 3D Portfolio Website
+# Gursamer Singh | 3D Portfolio
 
-This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
+This repository contains the source code for Gursamer Singh's personal 3D portfolio, built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions.
 
-Live site: Update this link to your deployed portfolio URL.
+Repository: [https://github.com/Gursamer/new_prot](https://github.com/Gursamer/new_prot)
+Live site: Add your deployed URL here.
 
 ![Portfolio Preview](public/images/preview1.png)
 
@@ -90,8 +91,8 @@ Live site: Update this link to your deployed portfolio URL.
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
-   cd 3d-portfolio
+   git clone https://github.com/Gursamer/new_prot.git
+   cd new_prot
    ```
 
 2. Install dependencies:
