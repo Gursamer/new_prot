@@ -3,7 +3,7 @@
 This repository contains the source code for Gursamer Singh's personal 3D portfolio, built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions.
 
 Repository: [https://github.com/Gursamer/new_prot](https://github.com/Gursamer/new_prot)
-Live site: Add your deployed URL here.
+Live site: [https://gursamer.github.io/new_prot/](https://gursamer.github.io/new_prot/)
 
 ![Portfolio Preview](public/images/preview1.png)
 
@@ -170,7 +170,7 @@ You can adapt this portfolio to your own profile by updating the following areas
    npm run preview
    ```
 
-3. Deploy the generated `dist/` folder to your hosting provider (for example Vercel, Netlify, or Cloudflare Pages).
+3. GitHub Pages deployment is configured via [deploy-pages.yml](.github/workflows/deploy-pages.yml) and runs on every push to `main`.
 
 ## License
 
